@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.herosection {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    overflow: hidden;
+    background-color: rgb(4, 0, 255);
+    background-image: linear-gradient(to bottom right, #00014b 0%, #000000 100%);
+}
+
+.hleft {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    opacity: 30%;
+}
+
+.hright {
+    padding: 8vh;
+}
+
+H1 {
+    color: rgba(13, 150, 254, 0.633);
+    font-size: 100px;
+    padding-top: 5vh;
+
+}
+
+h4 {
+    color: rgba(13, 150, 254, 0.633);
+    letter-spacing: 4px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+}
+
+p {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    color: rgb(4, 4, 134);
+    font-size: 30px;
+}
+
+.me {
+    color: #951414;
+    position: absolute;
+    padding-inline-start: 245px;
+    top: 95vh;
+}
+
+.discription {
+    position: relative;
+    padding-top: 95vh;
+    padding-left: 45vw;
+    padding-right: 5vw;
+    position: absolute;
+    top: 0;
+}
+
+.dispic {
+    height: 55vh;
+    position: relative;
+    background-image: url(./jpg/about.png);
+    background-size: contain;
+    background-repeat: repeat-y;
+    display: flex;
+    margin-top: 20vh;
+    margin-left: 1vh;
+}
+
+form {
+    padding-bottom: 5vh;
+}
+
+.countact {
+    text-align: center;
+    padding-top: 22vh;
+}
+
+.abar {
+    padding: 40px;
+}
+
+input[type=text],
+[type=textarea],
+select {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+.button {
+    background-color: #ecd1c8;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.221);
+}
+
+.button:hover {
+    opacity: 1
+}
+
+.hedder {
+    position: fixed;
+    width: 100%;
+}
+
+@media only screen and (max-width:500px) {
+    .herosection {
+        height: 140vh;
+        flex-direction: column;
+        width: 97.7vw;
+    }
+
+    .hleft {
+        height: 60vh;
+        background-size: cover;
+        position: absolute;
+        padding-left: 5vw;
+        margin-top: 120vh;
+        overflow: hidden;
+        order: 2;
+    }
+
+    .hright {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 45px;
+
+    }
+
+    follow {
+        padding-top: 125px;
+        position: relative;
+        top: 0;
+    }
+
+    .discription {
+        position: relative;
+        padding-top: 155vh;
+        padding-left: 10vw;
+        position: absolute;
+        top: 0;
+    }
+
+    p {
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .mytopic {
+        text-align: center;
+    }
+
+    .me {
+        position: absolute;
+        padding-inline-start: 140px;
+        top: 159.8vh;
+    }
+
+    .dispic {
+        height: 50vh;
+        position: relative;
+        background-image: url(./IMG_20240110_105842.png);
+        background-size: cover;
+        margin-top: 28vh;
+        opacity: 30%;
+        margin-left: 1vw;
+    }
+
+    .footer {
+        position: absolute;
+        width: 100%;
+    } 
+}
+
+@media only screen and (max-width:800px) {
+    .herosection {
+        height: 140vh;
+        flex-direction: column;
+        width: 97.7vw;
+        margin-right: -100px;
+    }
+
+    .hleft {
+        width: 80vw;
+        display: flex;
+        background-size: cover;
+        position: absolute;
+        padding-left: 15vw;
+        margin-top: 60vh;
+        overflow: hidden;
+        order: 2;
+    }
+
+    .hright {
+        text-align: center;
+        padding-top: 20vh;
+        padding-left: 5vw;
+    }
+
+    h1 {
+        font-size: 55px;
+
+    }
+
+    follow {
+        padding-top: 125px;
+        position: relative;
+        top: 0;
+    }
+
+    .discription {
+        position: relative;
+        padding-top: 155vh;
+        padding-left: 10vw;
+        position: absolute;
+        top: 0;
+    }
+
+    p {
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .mytopic {
+        text-align: center;
+    }
+
+    .me {
+        position: absolute;
+        padding-inline-start: 38vw;
+        top: 159.8vh;
+    }
+
+    .dispic {
+        height: 50vh;
+        position: relative;
+        background-image: url(./IMG_20240110_105842.png);
+        background-size: cover;
+        margin-top: 28vh;
+        opacity: 30%;
+        margin-left: 1vw;
+    }
+
+    .footer {
+        position: absolute;
+        width: 100%;
+    }
+}
